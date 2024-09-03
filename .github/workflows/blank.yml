@@ -33,7 +33,7 @@ jobs:
           python-version: '3.8'
 
       # Runs a set of commands using the runners shell
-      - name: Install dependencied
+      - name: Install dependencies
         run: |
           pip install -r requirements.txt
       
